@@ -1,0 +1,143 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Marcos Vinicius\\Desktop\\Tarefas.API\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{74AE76AB-B5D1-43AC-953B-BAFEDA575BBA}|Tarefas.API\\Tarefas.API.csproj|c:\\users\\marcos vinicius\\desktop\\tarefas.api\\tarefas.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74AE76AB-B5D1-43AC-953B-BAFEDA575BBA}|Tarefas.API\\Tarefas.API.csproj|solutionrelative:tarefas.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74AE76AB-B5D1-43AC-953B-BAFEDA575BBA}|Tarefas.API\\Tarefas.API.csproj|c:\\users\\marcos vinicius\\desktop\\tarefas.api\\tarefas.api\\endpoints\\categoriasendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74AE76AB-B5D1-43AC-953B-BAFEDA575BBA}|Tarefas.API\\Tarefas.API.csproj|solutionrelative:tarefas.api\\endpoints\\categoriasendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74AE76AB-B5D1-43AC-953B-BAFEDA575BBA}|Tarefas.API\\Tarefas.API.csproj|c:\\users\\marcos vinicius\\desktop\\tarefas.api\\tarefas.api\\endpoints\\tarefasendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74AE76AB-B5D1-43AC-953B-BAFEDA575BBA}|Tarefas.API\\Tarefas.API.csproj|solutionrelative:tarefas.api\\endpoints\\tarefasendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74AE76AB-B5D1-43AC-953B-BAFEDA575BBA}|Tarefas.API\\Tarefas.API.csproj|c:\\users\\marcos vinicius\\desktop\\tarefas.api\\tarefas.api\\model\\tarefa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74AE76AB-B5D1-43AC-953B-BAFEDA575BBA}|Tarefas.API\\Tarefas.API.csproj|solutionrelative:tarefas.api\\model\\tarefa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74AE76AB-B5D1-43AC-953B-BAFEDA575BBA}|Tarefas.API\\Tarefas.API.csproj|c:\\users\\marcos vinicius\\desktop\\tarefas.api\\tarefas.api\\model\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74AE76AB-B5D1-43AC-953B-BAFEDA575BBA}|Tarefas.API\\Tarefas.API.csproj|solutionrelative:tarefas.api\\model\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74AE76AB-B5D1-43AC-953B-BAFEDA575BBA}|Tarefas.API\\Tarefas.API.csproj|c:\\users\\marcos vinicius\\desktop\\tarefas.api\\tarefas.api\\context\\tarefasdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74AE76AB-B5D1-43AC-953B-BAFEDA575BBA}|Tarefas.API\\Tarefas.API.csproj|solutionrelative:tarefas.api\\context\\tarefasdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Tarefa.cs",
+              "DocumentMoniker": "C:\\Users\\Marcos Vinicius\\Desktop\\Tarefas.API\\Tarefas.API\\Model\\Tarefa.cs",
+              "RelativeDocumentMoniker": "Tarefas.API\\Model\\Tarefa.cs",
+              "ToolTip": "C:\\Users\\Marcos Vinicius\\Desktop\\Tarefas.API\\Tarefas.API\\Model\\Tarefa.cs",
+              "RelativeToolTip": "Tarefas.API\\Model\\Tarefa.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAADgvxMAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T13:43:06.174Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CategoriasEndpoints.cs",
+              "DocumentMoniker": "C:\\Users\\Marcos Vinicius\\Desktop\\Tarefas.API\\Tarefas.API\\Endpoints\\CategoriasEndpoints.cs",
+              "RelativeDocumentMoniker": "Tarefas.API\\Endpoints\\CategoriasEndpoints.cs",
+              "ToolTip": "C:\\Users\\Marcos Vinicius\\Desktop\\Tarefas.API\\Tarefas.API\\Endpoints\\CategoriasEndpoints.cs",
+              "RelativeToolTip": "Tarefas.API\\Endpoints\\CategoriasEndpoints.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAuwBEAAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T19:38:35.894Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TarefasDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Marcos Vinicius\\Desktop\\Tarefas.API\\Tarefas.API\\Context\\TarefasDbContext.cs",
+              "RelativeDocumentMoniker": "Tarefas.API\\Context\\TarefasDbContext.cs",
+              "ToolTip": "C:\\Users\\Marcos Vinicius\\Desktop\\Tarefas.API\\Tarefas.API\\Context\\TarefasDbContext.cs",
+              "RelativeToolTip": "Tarefas.API\\Context\\TarefasDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T14:44:55.624Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Categoria.cs",
+              "DocumentMoniker": "C:\\Users\\Marcos Vinicius\\Desktop\\Tarefas.API\\Tarefas.API\\Model\\Categoria.cs",
+              "RelativeDocumentMoniker": "Tarefas.API\\Model\\Categoria.cs",
+              "ToolTip": "C:\\Users\\Marcos Vinicius\\Desktop\\Tarefas.API\\Tarefas.API\\Model\\Categoria.cs",
+              "RelativeToolTip": "Tarefas.API\\Model\\Categoria.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T13:32:23.586Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "FloatingWindowState": {
+        "Id": "f7e61bbd-930a-4285-a239-0310c5bdf144",
+        "Display": 0,
+        "X": 251,
+        "Y": 152,
+        "Width": 1056,
+        "Height": 510,
+        "WindowState": 2
+      },
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TarefasEndPoints.cs",
+              "DocumentMoniker": "C:\\Users\\Marcos Vinicius\\Desktop\\Tarefas.API\\Tarefas.API\\Endpoints\\TarefasEndPoints.cs",
+              "RelativeDocumentMoniker": "Tarefas.API\\Endpoints\\TarefasEndPoints.cs",
+              "ToolTip": "C:\\Users\\Marcos Vinicius\\Desktop\\Tarefas.API\\Tarefas.API\\Endpoints\\TarefasEndPoints.cs",
+              "RelativeToolTip": "Tarefas.API\\Endpoints\\TarefasEndPoints.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAvwAgAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T19:54:26.425Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Marcos Vinicius\\Desktop\\Tarefas.API\\Tarefas.API\\Program.cs",
+              "RelativeDocumentMoniker": "Tarefas.API\\Program.cs",
+              "ToolTip": "C:\\Users\\Marcos Vinicius\\Desktop\\Tarefas.API\\Tarefas.API\\Program.cs",
+              "RelativeToolTip": "Tarefas.API\\Program.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAIAwwCYAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T13:00:03.719Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

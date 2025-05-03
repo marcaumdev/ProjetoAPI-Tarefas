@@ -1,0 +1,10 @@
+{
+  "openapi": "3.0.4",
+  "info": {
+    "title": "API de Tarefas",
+    "description": "API do Projeto de Tarefas para aprendizado de desenvolvimento Backend",
+    "version": "1.0"
+  },
+  "paths": { },
+  "components": { }
+}
