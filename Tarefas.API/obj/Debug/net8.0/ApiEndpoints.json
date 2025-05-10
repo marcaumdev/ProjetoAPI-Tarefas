@@ -120,10 +120,8 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.List\u00601[[Tarefas.API.Model.Tarefa, Tarefas.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
-        "MediaTypes": [
-          "application/json"
-        ],
+        "Type": "System.Void",
+        "MediaTypes": [],
         "StatusCode": 200
       }
     ]
@@ -137,8 +135,8 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "tarefa",
-        "Type": "Tarefas.API.Model.Tarefa",
+        "Name": "tarefaDTO",
+        "Type": "Tarefas.API.DTO.TarefaDTOPost",
         "IsRequired": true
       }
     ],

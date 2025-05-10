@@ -160,3 +160,4 @@ C:\Users\Marcos Vinicius\Desktop\Tarefas.API\Tarefas.API\obj\Debug\net8.0\Tarefa
 C:\Users\Marcos Vinicius\Desktop\Tarefas.API\Tarefas.API\obj\Debug\net8.0\Tarefas.API.genruntimeconfig.cache
 C:\Users\Marcos Vinicius\Desktop\Tarefas.API\Tarefas.API\obj\Debug\net8.0\ref\Tarefas.API.dll
 C:\Users\Marcos Vinicius\Desktop\Tarefas.API\Tarefas.API\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\Marcos Vinicius\Desktop\Tarefas.API\Tarefas.API\obj\Debug\net8.0\Tarefas.API.sourcelink.json

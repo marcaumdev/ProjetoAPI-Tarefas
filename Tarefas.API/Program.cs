@@ -1,9 +1,6 @@
-using Microsoft.AspNetCore.Http.HttpResults;
-using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi.Models;
 using Tarefas.API.Context;
 using Tarefas.API.Endpoints;
-using Tarefas.API.Model;
 
 var builder = WebApplication.CreateBuilder(args);
 

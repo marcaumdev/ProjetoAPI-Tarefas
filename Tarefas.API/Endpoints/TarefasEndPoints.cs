@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Tarefas.API.Context;
+using Tarefas.API.DTO;
 using Tarefas.API.Model;
 
 namespace Tarefas.API.Endpoints
@@ -8,18 +9,76 @@ namespace Tarefas.API.Endpoints
     {
         public static void MapTarefasEndpoints(this WebApplication app)
         {
-            app.MapGet("/Tarefas", async (TarefasDbContext db) => await db.Tarefas.ToListAsync());
+            app.MapGet("/Tarefas", async (TarefasDbContext db) =>
+            {
+                var Tarefas = await db.Tarefas.ToListAsync();
+
+                if(Tarefas.Count > 0)
+                {
+                    List<TarefaDTOGetAll> TarefasDTO = new List<TarefaDTOGetAll>();
+
+                    foreach (var Tarefa in Tarefas)
+                    {
+                        var tarefaDTO = new TarefaDTOGetAll()
+                        {
+                            Id = Tarefa.Id,
+                            Nome = Tarefa.Nome,
+                            Concluida = Tarefa.Concluida ? "Sim" : "Não"
+                        };
+
+                        TarefasDTO.Add(tarefaDTO);
+                    }
+
+                    return Results.Ok(TarefasDTO);
+                }
+                else
+                {
+                    return Results.NotFound("Não Há Tarefas");
+                }
+            });
 
             app.MapGet("/Tarefas/{id}", async (Guid id, TarefasDbContext db) =>
-                        await db.Tarefas.FindAsync(id) is Tarefa tarefa
-                        ? Results.Ok(tarefa)
-                        : Results.NotFound());
-
-            app.MapPost("/Tarefas", async (Tarefa tarefa, TarefasDbContext db) =>
             {
-                if (tarefa == null) return Results.BadRequest("Requisição inválida!");
+                var tarefa = await db.Tarefas.FindAsync(id);
+
+                if(tarefa != null)
+                {
+                    var categoria = await db.Categorias.FindAsync(tarefa.CategoriaId);
+
+                    TarefaDTOGet tarefaGet = new TarefaDTOGet()
+                    {
+                        Id = tarefa.Id,
+                        Nome = tarefa.Nome,
+                        Detalhe = tarefa.Detalhes,
+                        Concluida = tarefa.Concluida ? "Sim" : "Não",
+                        DataCadastro = tarefa.DataCadastro.ToString("dd/MM/yyyy HH:mm:ss"),
+                        DataConclusao = tarefa.DataConclusao?.ToString("dd/MM/yyyy HH:mm:ss") ?? "A concluir",
+                        Categoria = categoria
+                    };
+
+                    return Results.Ok(tarefaGet);
+                }
+                else
+                {
+                    return Results.NotFound("Tarefa não encontrada!");
+                }
+
+                
+            });
+
+            app.MapPost("/Tarefas", async (TarefaDTOPost tarefaDTO, TarefasDbContext db) =>
+            {
+                if (tarefaDTO == null) return Results.BadRequest("Requisição inválida!");
+
+                Tarefa tarefa = new Tarefa()
+                {
+                    Nome = tarefaDTO.Nome,
+                    Detalhes = tarefaDTO.Detalhes,
+                    CategoriaId = tarefaDTO.CategoriaId,
+                };
 
                 db.Tarefas.Add(tarefa);
+
                 await db.SaveChangesAsync();
 
                 return Results.Created($"/Tarefa/{tarefa.Id}", tarefa);
